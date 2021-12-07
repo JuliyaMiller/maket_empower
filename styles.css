@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 1440px;
+    height: 5800px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    user-select: auto;
+}
+.header_wrapper_logo{
+    position: absolute;
+    top: 32px;
+    left: 159px;
+}
+.header_wrapper > div{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.header_wrapper_quiz{
+    width: 32px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+    left: 789px;
+    color: #000000;
+}
+.header_wrapper_support{
+    width: 58px;
+    height: 24px;
+    position: absolute;
+    top: 40px;
+    left: 881px;
+    color: #000000;
+}
+
+/********Двойная кнопка для всех блоков******************/
+.butten_double{
+    width: 332px;
+    height: 60px; 
+    display: flex;
+}
+
+/***************большая часть кнопки******/
+.butten_double_size_b{
+    padding: 18px 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0000007D;
+    border: 2px solid #FFFFFF;
+}
+/********маленькая часть кнопки******/
+.butten_double_size_s{
+    padding: 18px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px; 
+    color: #FFFFFF;
+    border: 2px solid #000000;
+}
+  
+/*****************Двойная кнопка вверху*****************************/
+
+.butten_double_top{
+    position: absolute;
+    top: 22px;
+    left: 959px;
+}
+
+/**********************************************/
+
+.header_wrapper_h1{
+    width: 316px;
+    height: 180px;
+    position: absolute;
+    top: 195px;
+    left: 165px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header_wrapper_p{
+    width: 342px;
+    height: 120px;
+    position: absolute;
+    top: 390px;
+    left: 165px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+/*****************Двойная кнопка слева*****************************/
+.butten_double_left{
+    position: absolute;
+    top: 524px;
+    left: 165px;
+}
+/**********************************************/
+.header_wrapper_p_text{
+    width: 255px;
+    height: 24px;
+    position: absolute;
+    top: 594px;
+    left: 165px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+.header_wrapper_logo2{
+    width: 145px;
+    height: 43px;
+    position: absolute;
+    top: 660px;
+    left: 165px;
+}
+.header_wrapper_logo3{
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 658px;
+    left: 335px;
+}
+
+/*********************** Нижняя часть header: description - описание**********/
+.header_description{
+    width: 1440px;
+    height: 116px;
+    position: absolute;
+    top: 903px;
+    left: 0px;
+    background: #EFEFEF;
+    padding-left: 80px;
+    padding-right: 58px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;  
+}
+
+div.header_description_elem{
+    width: auto;
+    height: 116px;
+    padding-top: 39px;
+    
+}
+/***************картинки веточки***********/
+img.header_description_elem_img_left{
+    width: 41.39px;
+    height: 39px;
+    margin-top: 37px;
+    margin-right: 7px;
+}
+
+img.header_description_elem_img_right{
+    width: 41.39px;
+    height: 39px;
+    margin-top: 37px;
+    margin-left: 6px;
+    margin-right: 28px;
+}
+
+/*****************Текст***************/
+section.header_description > div.header_description_elem{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+div.header_description_elem > h3.header_description_elem_h3{
+    font-size: 18px;
+    letter-spacing: 1.93px;
+    font-weight: 400;
+}
+/*******************************************/
+
+/***********************main***************/
+.main{
+    height: 4154px;
+    position: absolute;
+    top:1019px;
+    left: 0px;
+}
+.main_only_card_h2{
+    width: 404px;
+    height: 30px;
+    position: absolute;
+    top: 79px;
+    left: 518px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/***********************Кнопка******************/
+.main_only_card_button{
+    width: 175px;
+    height: 64px;
+    border-radius: 50px;
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+/*************************************************/
+/*************** main - FOTO 1 *******************/
+.main_only_card_1{
+    width: 1100px;
+    height: 600px;
+    border-radius: 12px;
+    position: absolute;
+    top: 146px;
+    left: 170px;
+}
+
+.main_only_card_button{
+    position: absolute;
+    top: 476px;
+    left: 40px;
+}
+.main_only_card_foto_1_text{
+    width: 493px;
+    height: 198px;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/**********************************************/
+/********************* main FOTO 2 ***********/
+.main_only_card_2{
+    position: absolute;
+    top: 786px;
+    left: 170px;
+}
+.main_only_card_foto_2_text{
+    width: 407px;
+    height: 198px;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/********************* main FOTO 3 ***********/
+.main_only_card_3{
+    position: absolute;
+    top: 786px;
+    left: 740px;
+}
+.main_only_card_foto_3_text{
+    width: 365px;
+    height: 132px;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/********************* main FOTO 4 ***********/
+.main_only_card_4{
+    position: absolute;
+    top: 1426px;
+    left: 170px;
+}
+.main_only_card_foto_4_text{
+    width: 493px;
+    height: 198px;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/********************* main FOTO 5 ***********/
+.main_only_card_5{
+    position: absolute;
+    top: 1426px;
+    left: 740px;
+}
+.main_only_card_foto_5_text{
+    width: 394px;
+    height: 198px;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/*************** main_loved_by ********/
+.main_loved_by{
+    width: 1440px;
+    height: 492px;
+    position: absolute;
+    top: 2126px;
+    left: 0px;
+    background: #EFEFEF;
+}
+.main_loved_by_h2{
+    width: 110px;
+    height: 24px;
+    position: absolute;
+    top: 79px;
+    left: 665px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center; 
+}
+
+.main_loved_by_img_left_top{
+    width: 315px;
+    height: 138px;
+    position: absolute;
+    top: 132px;
+    left: 183px;
+}
+.main_loved_by_img_center_top{
+    width: 315px;
+    height: 130px;
+    position: absolute;
+    top: 136px;
+    left: 563px;
+}
+.main_loved_by_img_right_top{
+    width: 315px;
+    height: 112px;
+    position: absolute;
+    top: 145px;
+    left: 943px;
+}
+.main_loved_by_img_left_bottom{
+    width: 280px;
+    height: 122px;
+    position: absolute;
+    top: 290px;
+    left: 200px;
+}
+.main_loved_by_img_center_bottom{
+    width: 350px;
+    height: 93px;
+    position: absolute;
+    top: 304px;
+    left: 545px;
+}
+.main_loved_by_img_right_bottom{
+    width: 333px;
+    height: 87px;
+    position: absolute;
+    top: 307px;
+    left: 934px;
+}
+/************ main_make your move *********/
+.main_make_your_move{
+    width: 1440px;
+    height: 1052px;
+    position: absolute;
+    top: 2618px;
+    left: 0px;
+}
+.main_make_your_move_h2{
+    width: 208px;
+    height: 30px;
+    position: absolute;
+    top: 79px;
+    left: 616px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.main_make_your_move_h3{
+    width: 616px;
+    height: 66px;
+    position: absolute;
+    top: 109px;
+    left: 414px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+/******* фото 1 *******/
+.main_make_your_move_imf_left{
+    position: absolute;
+    top: 252px;
+    left: 170px;
+}
+/******* фото 2 *******/
+.main_make_your_move_imf_right{
+    position: absolute;
+    top: 252px;
+    left: 740px;
+}
+
+/********* main_download **********/
+.main_download{
+    width: 1440px;
+    height: 484px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #FCD0BA;
+}
+.main_download_text{
+    width: 963px;
+    height: 216px;
+    position: absolute;
+    top: 82px;
+    left: 239px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 108px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.main_butten_double_bottom{
+    position: absolute;
+    top: 344px;
+    left: 554px;
+}
+/************** footer **********/
+.footer{
+    width: 1440px;
+    height: 627px;
+    position: absolute;
+    bottom: 0px;
+    background: #000000;
+    color: #B3B3B3;
+    
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.footer_top_block_contact{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;   
+    padding-top: 41px;
+}
+.footer_top_block_contact_column > a{
+    width: 285.3px;
+    padding-left: 96px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.footer_p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.footer_img_vector1{
+    position: absolute;
+    top: 48.16px;
+    left: 165.39px;
+}
+.footer_img_vector2{
+    margin-left: 17.16px;
+    margin-bottom: 24.55px;
+}
+
+.footer_horizontal_line{
+    width: 1110px;
+    height: 1px;
+    background: #4D4D4D;
+    margin-bottom: 39px;
+}
